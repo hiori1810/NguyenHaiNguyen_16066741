@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Đăng nhập hệ thống"
+        android:textAlignment="center"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tài khoản:" />
+
+    <EditText
+        android:id="@+id/edtTaikhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Không được để trống"
+        android:inputType="textPersonName" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu:" />
+
+        <EditText
+            android:id="@+id/edtMatkhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Không được để trống"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cbLuuthongtin"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+
+        android:text="Lưu thông tin" />
+
+    <Button
+        android:id="@+id/btnDangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập" />
+</LinearLayout>
