@@ -44,13 +44,13 @@ public class MainActivity extends AppCompatActivity {
                 AlertDialog.Builder b=new AlertDialog.Builder(MainActivity.this);
                 b.setTitle("Thông Báo");
                 b.setMessage("Bạn có muốn thoát không?");
-                b.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                b.setPositiveButton("Co", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         finish();
                     }
                 });
-                b.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                b.setNegativeButton("Khong", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         dialogInterface.cancel();
